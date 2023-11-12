@@ -73,7 +73,7 @@ const DashboardPage = () => {
   return (
     <div className="container mx-auto p-8">
       <h1 className="text-4xl font-bold text-center mb-6">SOU POSITIVO</h1>
-      <p className='text-center mb-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+      <p className='text-center mb-4'>Por um futuro mais Positivo.</p>
       
       {/* Left Column */}
       <div className="flex flex-wrap justify-between items-start">
@@ -124,7 +124,14 @@ const DashboardPage = () => {
         {/* Right Column */}
         <div className="w-full lg:w-1/2 p-4">
           {/* Points Card */}
-          <div className="border rounded mb-4 p-4">
+          <div className="border rounded mb-4 p-4 relative">
+            <div className='flex justify-end'>
+            <div className='absolute w-8 justify-end flex items-center'>
+              <span className='text-[14px] items-center align-middle'>BRONZE</span>
+              <img src={bronzeBadge} />
+            </div>
+            </div>
+
             <h2 className="font-bold mb-2">PONTUAÇÃO TOTAL {user.points} PONTOS</h2>
             <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
               <div className="bg-green-600 h-2.5 rounded-full" style={{ width: `${progressBarWidth}%` }}></div>
