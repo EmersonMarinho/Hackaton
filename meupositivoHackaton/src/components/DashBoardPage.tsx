@@ -144,6 +144,9 @@ const DashboardPage = () => {
               <button className="mt-4 bg-green-500 text-white rounded p-2">ACESSAR CENTRO DE TREINAMENTO</button>
             </div>
           </div>
+          <div className='flex justify-center w-full'>
+              <button className="w-full mt-4 bg-blue-500 text-white rounded p-2 flex justify-center items-start">IR PARA A REDE SOCIAL</button>
+            </div>
         </div>
       </div>
 

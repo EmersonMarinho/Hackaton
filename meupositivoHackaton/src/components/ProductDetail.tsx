@@ -32,7 +32,7 @@ const ProductDetail = () => {
             autoPlay
             muted
             loop
-            className="w-full h-auto mx-auto" // 'mx-auto' to center horizontally
+            className="w-full h-auto mx-auto"
             />
         </div>
 
