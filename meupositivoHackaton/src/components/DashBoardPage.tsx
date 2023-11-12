@@ -17,8 +17,8 @@ const DashboardPage = () => {
   ]);
   const [user, setUser] = useState({
     name: "Luiz Souza",
-    points: 350,
-    nextLevelPoints: 700
+    points: 1200,
+    nextLevelPoints: 1500
   });
 
   const openModal = () => {
@@ -81,7 +81,7 @@ const DashboardPage = () => {
           {/* Welcome Card */}
           <div className="border rounded mb-4 p-4">
             <h2 className="font-bold mb-2 uppercase">SEJA BEM VINDO, {user.name}</h2>
-            <p>Você tem {user.points} pontos disponíveis</p>
+            <p>Você tem 350 pontos disponíveis</p>
             <button onClick={openModal} className="mt-2 bg-green-500 text-white rounded p-2">Veja suas Vantagens</button>
             <p className="mt-4">Gere mais pontos com Engajamento, Estudos, Desafios e Compras.</p>
           </div>
