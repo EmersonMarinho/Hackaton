@@ -23,15 +23,15 @@ function Header() {
           </div>
         </div>
         <div className="flex items-center space-x-2 sm:space-x-6">
-          <a href="/suporte" className="text-white flex items-center">
+          <a href="/" className="text-white flex items-center">
             <UserIcon className="h-6 w-6 mr-1" />
             Suporte
           </a>
-          <a href="/conta" className="text-white flex items-center">
+          <a href="/" className="text-white flex items-center">
             <ShoppingBagIcon className="h-6 w-6 mr-1" />
             Minha Conta
           </a>
-          <a href='/checkout' className="text-white flex items-center">
+          <a href='/' className="text-white flex items-center">
             <ShoppingCartIcon className="h-6 w-6 mr-1" />
           </a>
         </div>
