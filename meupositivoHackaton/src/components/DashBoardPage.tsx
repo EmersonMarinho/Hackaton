@@ -13,10 +13,10 @@ const DashboardPage = () => {
   ]);
   const [userChallenges, setUserChallenges] = useState([
     { id: 1, description: "Compartilhe um produto no Facebook", points: 50, completed: false },
-    { id: 2, description: "Convide um amigo para se registrar", points: 100, completed: false },
+    { id: 2, description: "Assista 4 Horas de Aula", points: 100, completed: false },
   ]);
   const [user, setUser] = useState({
-    name: "Fulano",
+    name: "Luiz Souza",
     points: 350,
     nextLevelPoints: 700
   });
@@ -53,7 +53,7 @@ const DashboardPage = () => {
     { position: "Primeiro Colocado", name: "Rodrigo Goes", points: 2000 },
     { position: "Segundo Colocado", name: "Chris Bumstead", points: 1800 },
     { position: "Terceiro Colocado", name: "Paulo Muzy", points: 1500 },
-    { position: "Quarto Colocado", name: "Renato Cariani", points: 1200 },
+    { position: "Quarto Colocado", name: "Luiz Souza", points: 1200 },
     { position: "Quinto Colocado", name: "Julio Batista", points: 1000 },
   ];
   const badges = [
@@ -87,7 +87,7 @@ const DashboardPage = () => {
           </div>
              {/* Daily tasks */}
         <div className="my-6 flex justify-center align-middle flex-wrap">
-              <h2 className="text-2xl font-semibold mb-3">Desafios Diários</h2>
+              <h2 className="text-2xl font-semibold mb-3">Desafios Semanais</h2>
               <div className="flex flex-wrap justify-center gap-4 text-center">
                 {dailyChallenges.map(challenge => (
                   <div key={challenge.id} className={`p-4 rounded-lg ${challenge.completed ? 'bg-green-200' : 'bg-blue-200'} shadow-lg`}>
