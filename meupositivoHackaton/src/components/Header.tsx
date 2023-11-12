@@ -31,7 +31,7 @@ function Header() {
             <ShoppingBagIcon className="h-6 w-6 mr-1" />
             Minha Conta
           </a>
-          <a href='/' className="text-white flex items-center">
+          <a href='/checkout' className="text-white flex items-center">
             <ShoppingCartIcon className="h-6 w-6 mr-1" />
           </a>
         </div>
