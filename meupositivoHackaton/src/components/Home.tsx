@@ -39,8 +39,8 @@ function Home() {
           <ProductCard product={{
                       id: "1",
                       video: video,
-                      name: "Cellphone",
-                      description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+                      name: "Celular XYZ",
+                      description: "Smartphone Positivo Twist 4 Pro S518 64GB Dual Chip 5.5",
                       tags: ["Infinix", "Infinix" ] ,
                       price: "R$ 150,00",
                       oldPrice: "R$ 200,00",

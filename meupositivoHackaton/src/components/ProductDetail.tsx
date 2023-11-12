@@ -49,7 +49,7 @@ const ProductDetail = () => {
               <p>{product.description}</p>
             </div>
             <div className="p-4 border rounded">
-              <h2 className="font-bold">Lorem ipsum dolor sit, amet consectetur adipisicing elit!</h2>
+              <h2 className="font-bold">Smartphone Positivo Twist 4 Pro S518 64GB Dual Chip 5.5" - Vermelho</h2>
             </div>
             <div className="p-4 border rounded flex gap-5">
               <h2 className="font-bold">Valor</h2>
@@ -59,7 +59,7 @@ const ProductDetail = () => {
                 <h2 className='font-bold text-center text-white uppercase'>Comprar</h2>
             </button>
             <div className="p-4 border rounded w-full md:w-1/2 lg:w-full mx-auto">
-        <h2 className="font-bold mb-2 text-center">Calcular o Frete</h2>
+        <h2 className="font-bold mb-2 flex justify-start">Calcular o Frete</h2>
         <div className="mb-4">
           <input
             type="text"
@@ -80,14 +80,18 @@ const ProductDetail = () => {
         </div>
       </div>
             <div className="flex space-x-4 gap-44 w-full">
-              <div className="p-4 border rounded w-full text-center">
-                <h2 className="font-bold">1200 Pontos</h2>
+              <div className="p-4 border rounded w-full text-center flex justify-center">
+                <div className='flex justify-center align-middle text-center pt-2'>
+                <h2 className="font-bold flex">50 Pontos</h2>
+                </div>
               </div>
               <div className="p-4 border rounded w-full text-center">
-                <h2 className="font-bold">Bronze</h2>
+              <div className='flex justify-center align-middle text-center pt-2'>
+                <h2 className="font-bold">Bronze II</h2>
+              </div>
               </div>
               <div className="p-4 border rounded w-full text-center">
-                <h2 className="font-bold">60H de conteúdo</h2>
+                <h2 className="font-bold">12H de conteúdo</h2>
               </div>
             </div>
           </div>

@@ -17,8 +17,8 @@ const DashboardPage = () => {
   ]);
   const [user, setUser] = useState({
     name: "Fulano",
-    points: 1200,
-    nextLevelPoints: 2000
+    points: 350,
+    nextLevelPoints: 700
   });
 
   const openModal = () => {
@@ -57,15 +57,15 @@ const DashboardPage = () => {
     { position: "Quinto Colocado", name: "Julio Batista", points: 1000 },
   ];
   const badges = [
-    { name: "Bronze", description: "Usuário nível Bronze", image: bronzeBadge },
-    { name: "Silver", description: "Usuário nível Prata", image: silverBadge },
-    { name: "Gold", description: "Usuário nível Ouro", image: goldBadge },
-    { name: "Platinum", description: "Usuário nível Platina", image: platinumBadge },
+    { name: "Bronze", description: "Assistiu 10 aulas", image: bronzeBadge },
+    { name: "Silver", description: "Conclui seu Primeiro Curso", image: silverBadge },
+    { name: "Gold", description: "Agendou uma Entrevista de Emprego", image: goldBadge },
+    { name: "Platinum", description: "Respondeu 5 perguntas", image: platinumBadge },
   ];
 
   const dailyChallenges = [
-    { id: 1, task: "Compartilhe um produto no Facebook", points: 50, completed: false },
-    { id: 2, task: "Convide um amigo para se registrar", points: 100, completed: false },
+    { id: 1, task: "Compartilhe um produto no Facebook", points: 5, completed: false },
+    { id: 2, task: "Convide um amigo para se registrar", points: 10, completed: false },
   ];
 
   const progressBarWidth = (user.points / user.nextLevelPoints) * 100;
@@ -83,7 +83,7 @@ const DashboardPage = () => {
             <h2 className="font-bold mb-2 uppercase">SEJA BEM VINDO, {user.name}</h2>
             <p>Você tem {user.points} pontos disponíveis</p>
             <button onClick={openModal} className="mt-2 bg-green-500 text-white rounded p-2">Veja suas Vantagens</button>
-            <p className="mt-4">Ganhe mais pontos consumindo, engajando, compartilhando produtos Positivo.</p>
+            <p className="mt-4">Gere mais pontos com Engajamento, Estudos, Desafios e Compras.</p>
           </div>
              {/* Daily tasks */}
         <div className="my-6 flex justify-center align-middle flex-wrap">
