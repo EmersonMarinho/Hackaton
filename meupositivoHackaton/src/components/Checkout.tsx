@@ -40,7 +40,9 @@ const Checkout = () => {
               <span>Total</span>
               <span>R$1.332,22</span>
             </div>
-            <button className="bg-indigo-500 font-semibold hover:bg-indigo-600 py-3 text-sm text-white uppercase w-full">
+            <span className="flex font-sans font-light text-gray-500 text-center text-[14px]">5% de Cashback</span>
+            <span className="font-sans font-extralight text-gray-500 text-center text-[14px]">50 Pontos Ao realizar a compra deste Produto</span>
+            <button className="bg-indigo-500 font-semibold hover:bg-indigo-600 py-3 text-sm mt-6 text-white uppercase w-full">
               Fechar pedido
             </button>
           </div>
