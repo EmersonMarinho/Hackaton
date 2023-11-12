@@ -24,7 +24,7 @@ function Home() {
 
       {/* Products and Filters */}
       <section className='w-full mx-auto'>
-      <div className="flex justify-center items-center mb-8 w-full">
+      <div className="flex justify-center items-center mb-2 w-full">
           <div className="flex gap-4 w-full">
           <div className="flex gap-4 mb-8 w-full">
                 <Card icon={CreditCardIcon}>Menor preço</Card>

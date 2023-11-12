@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 type Product = {
   id: string;
@@ -17,8 +18,15 @@ type ProductCardProps = {
 };
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        navigate(`/product/${product.id}`, { state: { product } });
+    }
+
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white mb-10">
+    <div onClick={handleClick} className='cursor-pointer'>
+    <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white mb-6">
       <video className="w-full" src={product.video} autoPlay muted loop />
       <div className="px-6 py-4">
         {product.discountTag && (
@@ -45,6 +53,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           </span>
         )}
       </div>
+    </div>
     </div>
   );
 };
