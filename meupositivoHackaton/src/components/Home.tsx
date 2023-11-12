@@ -1,5 +1,7 @@
 import { DevicePhoneMobileIcon, ComputerDesktopIcon, DeviceTabletIcon, CreditCardIcon   } from "@heroicons/react/24/solid";
 import Card from "./Card";
+import ProductCard from "./ProductCard";
+import video from "../assets/3Dvideo.mp4"
 
 
 function Home() {
@@ -34,11 +36,64 @@ function Home() {
         </div>
 
         {/* Product List (Placeholder) */}
+        <div className="flex w-full justify-between gap-7">
         <div>
-          {/* Insert product cards here */}
+          <ProductCard product={{
+                      id: "1",
+                      video: video,
+                      name: "Cellphone",
+                      description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+                      tags: ["Infinix", "Infinix" ] ,
+                      price: "R$ 150,00",
+                      oldPrice: "R$ 200,00",
+                      discountTag: "25%",
+                      shippingTag: "Frete Grátis"
+                  }} />
         </div>
+        <div>
+          <ProductCard product={{
+                      id: "2",
+                      video: video,
+                      name: "Cellphone",
+                      description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+                      tags: ["Infinix", "Infinix" ] ,
+                      price: "R$ 150,00",
+                      oldPrice: "R$ 200,00",
+                      discountTag: "25%",
+                      shippingTag: "Frete Grátis"
+                  }} />
+        </div>
+        <div>
+          <ProductCard product={{
+                      id: "3",
+                      video: video,
+                      name: "Cellphone",
+                      description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+                      tags: ["Infinix", "Infinix" ] ,
+                      price: "R$ 150,00",
+                      oldPrice: "R$ 200,00",
+                      discountTag: "25%",
+                      shippingTag: "Frete Grátis"
+                  }} />
+        </div>
+        <div>
+          <ProductCard product={{
+                      id: "4",
+                      video: video,
+                      name: "Cellphone",
+                      description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+                      tags: ["Infinix", "Infinix" ] ,
+                      price: "R$ 150,00",
+                      oldPrice: "R$ 200,00",
+                      discountTag: "25%",
+                      shippingTag: "Frete Grátis"
+                  }} />
+        </div>
+        </div>
+        
       </section>
     </div>
+    
   );
 }
 
