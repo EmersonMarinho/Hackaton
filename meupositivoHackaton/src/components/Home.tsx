@@ -41,7 +41,7 @@ function Home() {
                       video: video,
                       name: "Celular XYZ",
                       description: "Smartphone Positivo Twist 4 Pro S518 64GB Dual Chip 5.5",
-                      tags: ["Infinix", "Infinix" ] ,
+                      tags: ["Positivo", "Promoção", "2023", "Hackaton" ] ,
                       price: "R$ 150,00",
                       oldPrice: "R$ 200,00",
                       discountTag: "25%",

@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import ProductDetail from './components/ProductDetail';
 import DashboardPage from './components/DashBoardPage';
+import Checkout from './components/Checkout';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/product/:id" element={<ProductDetail />} />
         <Route path="*" element={<h1>Not Found</h1>} />
         <Route path="/souPositivo" element={<DashboardPage />} />
+        <Route path="/checkout" element={<Checkout />} />
       </Routes>
       <Footer />
     </BrowserRouter>
