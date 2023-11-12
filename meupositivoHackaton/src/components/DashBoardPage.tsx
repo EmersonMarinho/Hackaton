@@ -126,7 +126,7 @@ const DashboardPage = () => {
           {/* Points Card */}
           <div className="border rounded mb-4 p-4 relative">
             <div className='flex justify-end'>
-            <div className='absolute w-8 justify-end flex items-center'>
+            <div className='absolute w-8 justify-end flex items-center gap-1'>
               <span className='text-[14px] items-center align-middle'>BRONZE</span>
               <img src={bronzeBadge} />
             </div>
