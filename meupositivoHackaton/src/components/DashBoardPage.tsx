@@ -65,7 +65,7 @@ const DashboardPage = () => {
 
   const dailyChallenges = [
     { id: 1, task: "Compartilhe um produto no Facebook", points: 5, completed: false },
-    { id: 2, task: "Convide um amigo para se registrar", points: 10, completed: false },
+    { id: 2, task: "Assistir 4 horas de Aula Na Plataforma", points: 10, completed: false },
   ];
 
   const progressBarWidth = (user.points / user.nextLevelPoints) * 100;
