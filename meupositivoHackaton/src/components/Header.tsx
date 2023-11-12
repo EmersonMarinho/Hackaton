@@ -1,11 +1,17 @@
+import { useNavigate } from 'react-router-dom';
 import LogoPositivo from '../assets/logo.svg';
 import { UserIcon, ShoppingBagIcon, MagnifyingGlassIcon, ShoppingCartIcon } from '@heroicons/react/24/solid';
 
 function Header() {
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        navigate('/')
+    }
   return (
     <header className="bg-[#2F393B] p-4 flex flex-col sm:flex-row justify-around items-center w-full">
       <div className="flex items-center justify-around w-full sm:space-x-7 mb-4 sm:mb-0">
-        <img src={LogoPositivo} alt="Logo Positivo" className="h-10" />
+        <img onClick={handleClick} src={LogoPositivo} alt="Logo Positivo" className="h-10 cursor-pointer" />
         <div className="flex-1 max-w-xs sm:max-w-xl">
           <div className="relative">
             <MagnifyingGlassIcon className="w-5 h-5 absolute top-3 left-3 text-gray-400" />

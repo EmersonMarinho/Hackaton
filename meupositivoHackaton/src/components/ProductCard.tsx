@@ -25,8 +25,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
     }
 
   return (
-    <div onClick={handleClick} className='cursor-pointer'>
-    <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white mb-6">
+    <div onClick={handleClick} className='cursor-pointer w-full'>
+    <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white mb-6 border-gray-950 hover:opacity-80">
       <video className="w-full" src={product.video} autoPlay muted loop />
       <div className="px-6 py-4">
         {product.discountTag && (
