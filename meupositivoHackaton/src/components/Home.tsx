@@ -6,15 +6,13 @@ import video from "../assets/3Dvideo.mp4"
 
 function Home() {
   return (
-    <div className="container mx-auto px-4">
-      {/* Breadcrumb */}
+    <div className="container mx-auto px-4 font-sans">
       <nav className="text-white py-3">
         <ul className="flex space-x-2">
-          <li className='text-black'>Home</li>
+          <li className='text-black font-bold uppercase font-sans'>Home</li>
         </ul>
       </nav>
 
-      {/* Banner */}
       <div className="bg-black text-white p-6 rounded-md mb-6">
         <h1 className="text-4xl font-bold mb-4">#SOU POSITIVO</h1>
         <p className="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto itaque, et officia quis dicta neque quae praesentium ab. Culpa nemo architecto inventore nisi repellendus dolor delectus dicta nesciunt ratione ducimus.</p>

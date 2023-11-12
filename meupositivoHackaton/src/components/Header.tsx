@@ -9,7 +9,7 @@ function Header() {
         navigate('/')
     }
   return (
-    <header className="bg-[#2F393B] p-4 flex flex-col sm:flex-row justify-around items-center w-full">
+    <header className="bg-[#2F393B] p-4 flex flex-col sm:flex-row justify-around items-center w-full font-sans">
       <div className="flex items-center justify-around w-full sm:space-x-7 mb-4 sm:mb-0">
         <img onClick={handleClick} src={LogoPositivo} alt="Logo Positivo" className="h-10 cursor-pointer" />
         <div className="flex-1 max-w-xs sm:max-w-xl">
