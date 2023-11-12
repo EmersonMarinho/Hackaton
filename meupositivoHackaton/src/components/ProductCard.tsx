@@ -18,7 +18,7 @@ type ProductCardProps = {
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
+    <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white mb-10">
       <video className="w-full" src={product.video} autoPlay muted loop />
       <div className="px-6 py-4">
         {product.discountTag && (
